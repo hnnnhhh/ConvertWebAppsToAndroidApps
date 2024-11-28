@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- res/layout/activity_main.xml -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -8,35 +7,169 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="5"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:columnOrderPreserved="false">
 
-        <!-- 50 buttons -->
-        <Button android:id="@+id/displayhelloworld" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Display Hello World" />
-        <Button android:id="@+id/showhellobutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show Hello Button" />
-        <Button android:id="@+id/displayname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Display Name" />
-        <Button android:id="@+id/counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Counter" />
-        <Button android:id="@+id/simpleform" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Simple Form" />
-        <Button android:id="@+id/userage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User Age" />
-        <Button android:id="@+id/usergreeting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User Greeting" />
-        <Button android:id="@+id/calculator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Calculator" />
-        <Button android:id="@+id/textlength" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Text Length" />
-        <Button android:id="@+id/currencyconverter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Currency Converter" />
+        <!-- Adjust the buttons to fit dynamically -->
+        <Button
+            android:id="@+id/displayhelloworld"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Display Hello World" />
 
-        <Button android:id="@+id/evenoddchecker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Even Odd Checker" />
-        <Button android:id="@+id/wordreverser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Word Reverser" />
-        <Button android:id="@+id/showdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show Date" />
-        <Button android:id="@+id/showusername" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show Username" />
-        <Button android:id="@+id/multiplicationtable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Multiplication Table" />
-        <Button android:id="@+id/simplelogin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Simple Login" />
-        <Button android:id="@+id/fahrenheittocelcius" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fahrenheit to Celsius" />
-        <Button android:id="@+id/bookmarklist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bookmark List" />
-        <Button android:id="@+id/charactercounter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Character Counter" />
-        <Button android:id="@+id/palindromechecker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Palindrome Checker" />
+        <Button
+            android:id="@+id/showhellobutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Show Hello Button" />
 
+        <Button
+            android:id="@+id/displayname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Display Name" />
 
-        <!-- Add the remaining buttons as placeholders -->
-        <!-- Example: -->
+        <Button
+            android:id="@+id/counter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Counter" />
 
-        <!-- Repeat up to button50 -->
+        <Button
+            android:id="@+id/simpleform"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Simple Form" />
+
+        <Button
+            android:id="@+id/userage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="User Age" />
+
+        <Button
+            android:id="@+id/usergreeting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="User Greeting" />
+
+        <Button
+            android:id="@+id/calculator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Calculator" />
+
+        <Button
+            android:id="@+id/textlength"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Text Length" />
+
+        <Button
+            android:id="@+id/currencyconverter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Currency Converter" />
+
+        <Button
+            android:id="@+id/evenoddchecker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Even Odd Checker" />
+
+        <Button
+            android:id="@+id/wordreverser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Word Reverser" />
+
+        <Button
+            android:id="@+id/showdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Show Date" />
+
+        <Button
+            android:id="@+id/showusername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Show Username" />
+
+        <Button
+            android:id="@+id/multiplicationtable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Multiplication Table" />
+
+        <Button
+            android:id="@+id/simplelogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Simple Login" />
+
+        <Button
+            android:id="@+id/fahrenheittocelcius"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Fahrenheit to Celsius" />
+
+        <Button
+            android:id="@+id/bookmarklist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Bookmark List" />
+
+        <Button
+            android:id="@+id/charactercounter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Character Counter" />
+
+        <Button
+            android:id="@+id/palindromechecker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Palindrome Checker" />
+
     </GridLayout>
 </ScrollView>

@@ -12,15 +12,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WebAppToAndroidApp"
         tools:targetApi="31">
+
+        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Additional Activities -->
+        <activity android:name=".androidapps.DisplayHelloWorld" />
+        <activity android:name=".androidapps.ShowHelloButton" />
+        <activity android:name=".androidapps.DisplayName" />
+        <activity android:name=".androidapps.Counter" />
+        <activity android:name=".androidapps.SimpleForm" />
+        <activity android:name=".androidapps.UserAge" />
+        <activity android:name=".androidapps.UserGreeting" />
+        <activity android:name=".androidapps.Calculator" />
+        <activity android:name=".androidapps.TextLength" />
+        <activity android:name=".androidapps.CurrencyConverter" />
+
+        <activity android:name=".androidapps.EvenOddChecker" />
+        <activity android:name=".androidapps.WordReverser" />
+        <activity android:name=".androidapps.ShowDate" />
+        <activity android:name=".androidapps.ShowUsername" />
+        <activity android:name=".androidapps.MultiplicationTable" />
+        <activity android:name=".androidapps.SimpleLogin" />
+        <activity android:name=".androidapps.FahrenheitToCelsius" />
+        <activity android:name=".androidapps.BookmarkList" />
+        <activity android:name=".androidapps.CharacterCounter" />
+        <activity android:name=".androidapps.PalindromeChecker" />
+
+        <!-- Add more activities as needed -->
+
     </application>
 
 </manifest>
