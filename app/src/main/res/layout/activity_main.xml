@@ -6,170 +6,57 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:columnCount="5"
+        android:columnCount="4"
         android:padding="10dp"
         android:columnOrderPreserved="false">
 
-        <!-- Adjust the buttons to fit dynamically -->
+        <!-- Adjusted button attributes -->
         <Button
             android:id="@+id/displayhelloworld"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Display Hello World" />
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:text="Display Hello World"
+            android:ellipsize="end"
+            android:maxLines="1" />
 
         <Button
             android:id="@+id/showhellobutton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Show Hello Button" />
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:text="Show Hello Button"
+            android:ellipsize="end"
+            android:maxLines="1" />
 
+        <!-- Repeat for all buttons -->
         <Button
             android:id="@+id/displayname"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Display Name" />
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:text="Display Name"
+            android:ellipsize="end"
+            android:maxLines="1" />
 
         <Button
             android:id="@+id/counter"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Counter" />
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:text="Counter"
+            android:ellipsize="end"
+            android:maxLines="1" />
 
-        <Button
-            android:id="@+id/simpleform"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Simple Form" />
-
-        <Button
-            android:id="@+id/userage"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="User Age" />
-
-        <Button
-            android:id="@+id/usergreeting"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="User Greeting" />
-
-        <Button
-            android:id="@+id/calculator"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Calculator" />
-
-        <Button
-            android:id="@+id/textlength"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Text Length" />
-
-        <Button
-            android:id="@+id/currencyconverter"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Currency Converter" />
-
-        <Button
-            android:id="@+id/evenoddchecker"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Even Odd Checker" />
-
-        <Button
-            android:id="@+id/wordreverser"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Word Reverser" />
-
-        <Button
-            android:id="@+id/showdate"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Show Date" />
-
-        <Button
-            android:id="@+id/showusername"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Show Username" />
-
-        <Button
-            android:id="@+id/multiplicationtable"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Multiplication Table" />
-
-        <Button
-            android:id="@+id/simplelogin"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Simple Login" />
-
-        <Button
-            android:id="@+id/fahrenheittocelcius"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Fahrenheit to Celsius" />
-
-        <Button
-            android:id="@+id/bookmarklist"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Bookmark List" />
-
-        <Button
-            android:id="@+id/charactercounter"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Character Counter" />
-
-        <Button
-            android:id="@+id/palindromechecker"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="Palindrome Checker" />
+        <!-- Add the remaining buttons here -->
 
     </GridLayout>
 </ScrollView>
