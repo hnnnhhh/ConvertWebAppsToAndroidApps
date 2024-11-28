@@ -21,35 +21,45 @@
         android:hint="Enter second number"
         android:inputType="numberDecimal" />
 
+    <!-- Horizontal LinearLayout for the four buttons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:weightSum="4">
 
         <Button
             android:id="@+id/addButton"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Add" />
+            android:layout_weight="1"
+            android:text="Add"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/subtractButton"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Subtract" />
+            android:layout_weight="1"
+            android:text="Subtract"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/multiplyButton"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Multiply" />
+            android:layout_weight="1"
+            android:text="Multiply"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/divideButton"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Divide" />
+            android:layout_weight="1"
+            android:text="Divide"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <TextView
@@ -57,4 +67,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="16dp" />
+
 </LinearLayout>
