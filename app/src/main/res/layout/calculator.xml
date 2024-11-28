@@ -7,19 +7,22 @@
     android:gravity="center"
     android:padding="16dp">
 
+    <!-- Input fields with smaller text size -->
     <EditText
         android:id="@+id/number1EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter first number"
-        android:inputType="numberDecimal" />
+        android:inputType="numberDecimal"
+        android:textSize="10sp"/>
 
     <EditText
         android:id="@+id/number2EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter second number"
-        android:inputType="numberDecimal" />
+        android:inputType="numberDecimal"
+        android:textSize="10sp"/>
 
     <!-- Horizontal LinearLayout for the four buttons -->
     <LinearLayout
@@ -35,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Add"
-            android:textSize="18sp" />
+            android:textSize="10sp" />
 
         <Button
             android:id="@+id/subtractButton"
@@ -43,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Subtract"
-            android:textSize="18sp" />
+            android:textSize="10sp" />
 
         <Button
             android:id="@+id/multiplyButton"
@@ -51,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Multiply"
-            android:textSize="18sp" />
+            android:textSize="10sp" />
 
         <Button
             android:id="@+id/divideButton"
@@ -59,13 +62,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Divide"
-            android:textSize="18sp" />
+            android:textSize="10sp" />
     </LinearLayout>
 
+    <!-- Result TextView with smaller text size -->
     <TextView
         android:id="@+id/resultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="16dp" />
+        android:paddingTop="16dp"
+        android:textSize="10sp"/>
 
 </LinearLayout>
